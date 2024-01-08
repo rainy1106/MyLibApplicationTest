@@ -45,9 +45,9 @@ afterEvaluate {
         publications {
             create<MavenPublication>("mavenJava") {
                 from(components["release"])
-                groupId = "org.gradle.sample"
-                artifactId = "library"
-                version = "1.1"
+                groupId = "com.github.rainy1106"
+                artifactId = "mylibraryTest"
+                version = "1.0"
 
                // from(components["java"])
             }
